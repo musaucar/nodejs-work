@@ -1,0 +1,9 @@
+Register kaydolma kullanıcı oluşturma create user  create
+Tokenler genellikle bir kullanıcının bir sisteme giriş yaptıktan sonra, sistem tarafından verilen bir özel anahtar şeklinde düşünülebilir
+Bu anahtar, kullanıcının sisteme erişim hakkına ve yetkilere sahip olduğunu doğrular ve kullanıcının sistemde yapabileceği işlemleri
+belirler.
+
+Access token, kullanıcının sisteme erişim hakkına ve yetkilere sahip olduğunu doğrular ve kullanıcının sistemde yapabileceği işlemleri
+belirler. Refresh token ise, access token'ın süresi dolunca, kullanıcının sisteme tekrar giriş yapmasını önlemek için kullanılır.
+
+

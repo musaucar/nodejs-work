@@ -1,0 +1,33 @@
+app.js -> middleware ekledim hata middleware i satır numarası -> 19
+middlewares/error-middleware.js -> hataları ele aldığım middleware kodları -> çeşitlendirilmeli 
+bookcontrollers->readbook methodu nda kullandım -> 
+
+
+
+
+isEmail(): This validator function checks if the incoming string is a valid email address.
+isLength(): This validator checks if the length of a string falls in a specified range. In our case, the range specified is a minimum of 6 characters.
+Some of the other methods we could've used are:
+
+isNumeric() - Checks if the input is numeric
+contains() - Checks if the input contains a certain value
+isBoolean() - Check is the input is a boolean value
+isCurrency() - Checks if the input is currency-formatted
+isJSON() - Checks if the input is JSON
+isMobilePhone() - Checks is the input is a valid mobile phone number
+isPostalCode() - Checks if the input is a valid postal code
+isBefore() and isAfter() - Checks if a date is before or after another date
+
+custom methodu   
+checkSchema() ayrı olarak biyerde düzenli durmasını istiyorsan ve genel olarak heryerde kullanıcaksan
+
+
+
+// sunucu bir bilgisayar içinde bir işletim sistemi var aynı bilgisayardaki gibi donanım aygıtları var
+// sistem çağrıları -> apiyle yapılır -> apinin içinde kanka metodlar var -> uygulama bunu sen görüyorsun -> metodları var
+// işlemciye gidiyor -> işlemci bunu işliyor -> senin bütün methodların belleğe kaydedilliyor
+// işlemcinin içinde cache -> en çok kullanılan işlemler
+// işlemci gidecek isteği bellekten alacak
+// process = iş
+// thread = iş parçaçığı multi thread java
+// js de multithread yok bu ne var pekiiiiiiii multi job
